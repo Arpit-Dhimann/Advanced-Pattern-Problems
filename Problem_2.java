@@ -1,8 +1,8 @@
-// Problem: Print the pattern (Butterfly Pattern).    * * * * *
+// Problem: Print the pattern (Solid Rhombus Pattern).    * * * * *
+//                                                      * * * * *
+//                                                    * * * * *
 //                                                  * * * * *
 //                                                * * * * *
-//                                              * * * * *
-//                                            * * * * *
 
 public class Problem_2 {
   public static void main(String[]args) {
