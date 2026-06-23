@@ -6,24 +6,24 @@
  
 public class Problem_4 {
   public static void main(String[]args) {
-    // Number of rows in the rhombus
+    // Number of rows in the Palindromic Pyramid
     int n = 5;
 
     // Outer loop: Manages the number of rows
     for(int i=1; i<=n; i++){
 
-       // For spaces: Prints spaces to create the pyramid alignment
+       // 1. For spaces: Creates pyramid alignment
         int space = n - i;
         for(int j=1; j<=space; j++){
             System.out.print("  ");
         }
 
-        // Inner loop: Prints the row number 'i' for 'i' times
+        // First half (Descending): Prints numbers from i down to 1
         for(int j=i; j>=1; j--){
             System.out.print( j + " ");
         }
 
-        // Inner loop: Prints the row number 'i' for 'i' times
+        // Second half (Ascending): Prints numbers from 2 up to i
         for(int j=2; j<=i; j++){
             System.out.print( j + " ");
         }
