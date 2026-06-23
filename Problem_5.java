@@ -1,4 +1,4 @@
-// Problem: Print the pattern (Palindromic Pyramid).     *
+// Problem: Print the pattern (Diamond Pattern).         *
 //                                                     * * *
 //                                                   * * * * *
 //                                                 * * * * * * *
